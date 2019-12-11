@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-bestow-parity",
+  "name": "eslint-plugin-bestow",
   "version": "0.0.1",
   "main": "main.js",
   "private": true,
