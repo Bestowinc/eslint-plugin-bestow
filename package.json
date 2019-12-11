@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "main": "main.js",
   "private": true,
-  "license": "proprietary"
+  "license": "proprietary",
+  "dependencies": {
+    "eslint-config-standard": "^14.1.0"
+  }
 }
-

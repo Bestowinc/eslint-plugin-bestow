@@ -1,4 +1,5 @@
 module.exports = {
+  extends: "eslint-config-standard",
   rules: {
     "no-multiple-empty-lines": [0, false],
     "brace-style": [2, "stroustrup"],
