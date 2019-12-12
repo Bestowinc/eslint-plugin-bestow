@@ -1,10 +1,6 @@
 {
   "name": "eslint-plugin-bestow",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "main.js",
-  "private": true,
-  "license": "proprietary",
-  "dependencies": {
-    "eslint-config-standard": "^14.1.0"
-  }
+  "private": true
 }
