@@ -1,6 +1,8 @@
 {
   "name": "eslint-plugin-bestow",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "main.js",
-  "private": true
+  "private": true,
+  "description": "Eslint plugin with configs for all Bestow JS projects.",
+  "license": "UNLICENSED"
 }
