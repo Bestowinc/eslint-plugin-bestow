@@ -17,7 +17,17 @@ module.exports = {
         "quotes": [2, "double"],
         "semi": [2, "always"],
         "semi-style": [2, "last"],
-        "space-before-function-paren": [0, false]	
+        "space-before-function-paren": [0, false]
+      }
+    },
+    twentyTwenty: {
+      rules: {
+        "one-var": [0, false],
+        "comma-dangle": [0, false],
+        "generator-star-spacing": [1, {
+          "before": true,
+          "after": true
+        }]
       }
     }
   }
