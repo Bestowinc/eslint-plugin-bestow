@@ -17,9 +17,21 @@ module.exports = {
         "quotes": [2, "double"],
         "semi": [2, "always"],
         "semi-style": [2, "last"],
-        "space-before-function-paren": [0, false]
+        "space-before-function-paren": [0, false],
+        "import/prefer-default-export": [0, false],
+        "react/jsx-filename-extension": [0, false],
+        "react/jsx-props-no-spreading": [0, false],
+        "react/prop-types": [0, false],
+        "prettier/prettier": "error"
       }
     },
+    env: {
+      "browser": true,
+      "es6": true,
+      "jest": true
+    },
+    extends: ["airbnb", "prettier"],
+    plugins: ["prettier"],
     twentyTwenty: {
       rules: {
         "one-var": [0, false],
