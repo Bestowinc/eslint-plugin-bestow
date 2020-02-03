@@ -17,12 +17,7 @@ module.exports = {
         "quotes": [2, "double"],
         "semi": [2, "always"],
         "semi-style": [2, "last"],
-        "space-before-function-paren": [0, false],
-        "import/prefer-default-export": [0, false],
-        "react/jsx-filename-extension": [0, false],
-        "react/jsx-props-no-spreading": [0, false],
-        "react/prop-types": [0, false],
-        "prettier/prettier": "error"
+        "space-before-function-paren": [0, false]
       }
     },
     env: {
@@ -39,7 +34,12 @@ module.exports = {
         "generator-star-spacing": [1, {
           "before": true,
           "after": true
-        }]
+        }],
+        "import/prefer-default-export": [0, false],
+        "react/jsx-filename-extension": [0, false],
+        "react/jsx-props-no-spreading": [0, false],
+        "react/prop-types": [0, false],
+        "prettier/prettier": "error"
       }
     }
   }
