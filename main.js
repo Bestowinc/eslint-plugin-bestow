@@ -20,14 +20,14 @@ module.exports = {
         "space-before-function-paren": [0, false]
       }
     },
-    env: {
-      "browser": true,
-      "es6": true,
-      "jest": true
-    },
-    extends: ["airbnb", "prettier"],
-    plugins: ["prettier"],
     twentyTwenty: {
+      env: {
+        "browser": true,
+        "es6": true,
+        "jest": true
+      },
+      extends: ["airbnb", "eslint-config-prettier"],
+      plugins: ["eslint-plugin-prettier"],
       rules: {
         "one-var": [0, false],
         "comma-dangle": [0, false],
