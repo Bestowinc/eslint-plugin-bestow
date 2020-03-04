@@ -24,35 +24,20 @@ module.exports = {
       }
     },
 
-    customAirbnb: {
-      extends: ["airbnb"],
-      rules: {
-        "import/prefer-default-export": [0, false],
-        "react/jsx-filename-extension": [0, false],
-        "react/jsx-props-no-spreading": [0, false],
-        "react/prop-types": [0, false]
-      }
-    },
-
     twentyTwenty: {
       env: {
         browser: true,
         es6: true,
         jest: true
       },
-      extends: ["eslint-config-prettier"],
+      extends: ["airbnb", "eslint-config-prettier"],
       plugins: ["eslint-plugin-prettier"],
       rules: {
-        "one-var": [0, false],
-        "comma-dangle": [0, false],
-        "generator-star-spacing": [
-          1,
-          {
-            before: true,
-            after: true
-          }
-        ],
-        "prettier/prettier": "error"
+        "import/prefer-default-export": [0, false],
+        "prettier/prettier": "error",
+        "react/jsx-filename-extension": [0, false],
+        "react/jsx-props-no-spreading": [0, false],
+        "react/prop-types": [0, false]
       }
     }
   }
